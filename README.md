@@ -10,7 +10,8 @@ It's not comprehensive. I add functions/objects as I need them. I have limited P
 ```python
 from bubble_io.bubbleio import BubbleIo
 
-# If api_token is provided it will use that for authentication, otherwise it will use the environment variable named "BUBBLEIO_API_TOKEN"
+# If api_token is provided it will use that for authentication, otherwise it will use the environment variable 
+# named "BUBBLEIO_API_TOKEN"
 bubbleio = BubbleIo("my-app-name", api_token="01234567890123456789012345678901")
 
 print(bubbleio.get_things_all("Furniture Inventory"))
