@@ -22,7 +22,7 @@ print(bubbleio.get_things_all("Furniture Inventory"))
 from bubble_io.bubbleio import BubbleIo
 
 # api_token is set in the environment variable named "BUBBLEIO_API_TOKEN"
-# A custom domain name "mycreatapp.com" has been set up for the app on Bubble
+# A custom domain name "mygreatapp.com" has been set up for the app on Bubble
 bubbleio = BubbleIo("my-app-name", domain_name="mygreatapp.com", live=True)
 
 print(bubbleio.get_things_all("Furniture Inventory"))
