@@ -1,5 +1,5 @@
 import requests
-from auth import BubbleIoAuth
+from bubble_io.auth import BubbleIoAuth
 
 
 class BubbleIoException(Exception):
